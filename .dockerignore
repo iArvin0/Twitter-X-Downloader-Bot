@@ -1,0 +1,13 @@
+.git
+.github
+.env
+.venv
+venv
+__pycache__
+.pytest_cache
+.ruff_cache
+downloads
+logs
+*.log
+cookies.txt
+*cookies*.txt

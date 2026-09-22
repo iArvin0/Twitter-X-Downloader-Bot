@@ -1,0 +1,10 @@
+services:
+  bot:
+    build: .
+    container_name: twitter-x-downloader-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./downloads:/app/downloads
+      - ./logs:/app/logs
